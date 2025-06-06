@@ -1,2 +1,43 @@
-# Virtualizacion-de-redes-con-QEMU-KVM-Pyhton
-Virtualización de una infraestructura de redes con KVM en Ubuntu 22.04
+# :top:Virtualizacion con KVM.
+
+Este proyecto consiste en la creación automática de una infraestructura de red virtual con KVM en ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu) usando **KVM** y **libvirt**. Para los scripts se ha usado el lenguaje de programación Python y bash para automatizar el despliegue y configuración del entorno.
+La infraestructura está compuesta por 4 peces en redes diferentes, 4 router interconectados y un servidor como muestra la siguiente imagen:
+<br><img src="Capturas/image9.png" alt="Esquema red" style="width: 50%; border: 1px solid #ccc;" /><br>
+En este repositorio NO se incluye la imagen de disco maestro con extensión .qcow2 pero se pueden descargar a través de sitios oficiales de Debian o Ubuntu y después transformarse a formato qcow2 con el comando:
+```bash
+qemu-img convert -O qcow2 [imagen base].img [imagen final].qcow2
+```
+Leer la memoria antes de nada para comprobar las configuraciones necesarias antes de empezar.
+## :hammer:Tecnologías y herramientas usadas.
+
+- **KVM**(Kernel-based Virtual Machine).
+- **libvirt**(API para gestionar máquinas virtuales).
+- **Python**
+- **Bash**
+- **Netplan**(configuración de red en Ubuntu).
+- **FRRouting** para el enrutamiento (OSPF).
+
+## :office:Estructura del proyecto.
+
+- `plantilla_kvm.xml`: plantilla de configuración xml de las máquinas virtuales.
+- `agr-vm-base.qcow2`: imagen de disco que se va a usar de base para crear las máquinas virtuales, ocupan poco y son muy eficientes para el proyecto.
+- `scriptPrincipal.sh`: Despliega toda la infraestructura.
+- `script1.py`: Genera ficheros .xml con las redes virtuales para libvirt/KVM.
+- `script2.py`: Genera y automatiza la creación de la estructura de archivos y la configuración XML para máquinas virtuales en KVM/libvirt a partir de la plantilla "plantilla_kvm.xml" y la imagen base "agr-vm-base.qcow2".
+- `limpieza.sh`: limpia el entorno creado con scriptPrincipal.sh, todas las máquinas virtuales, carpetas, redes, etc.
+
+El contenido está explicado en el archivo [`Memoria-virtualización.md`](Memoria-virtualización.md) que tiene la siguiente estructura:
+
+1. [Introducción](Memoria-virtualización.md#Introducción)
+2. [Hipervisores, KVM y Libvirt](Memoria-virtualización.md#hipervisores-kvm-y-libvirt)
+3. [Requisitos, sistema operativo](Memoria-virtualización.md#requisitos-sistema-operativo)
+4. [Plan](Memoria-virtualización.md#Plan)
+5. [Script limpieza.sh](Memoria-virtualización.md#script-limpiezash)
+6. [script1.py](Memoria-virtualización.md#script1py)
+7. [script2.py](Memoria-virtualización.md#script2py)
+8. [scriptPrincipal.sh](Memoria-virtualización.md#scriptprincipalsh)
+9. [Resultado final](Memoria-virtualización.md#resultado-final)
+10. [Referencias y bibliografía](Memoria-virtualización.md#referencias-y-bibliografía)
+
+## Se aceptan sugerencias (pull requests).
+
