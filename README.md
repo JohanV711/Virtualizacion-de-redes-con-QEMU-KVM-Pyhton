@@ -35,7 +35,7 @@ git clone https://github.com/JohanV711/Virtualizacion-de-redes-con-QEMU-KVM-Pyht
 - `script2.py`: Genera y automatiza la creación de la estructura de archivos y la configuración XML para máquinas virtuales en KVM/libvirt a partir de la plantilla "plantilla_kvm.xml" y la imagen base "agr-vm-base.qcow2".
 - `limpieza.sh`: limpia el entorno creado con scriptPrincipal.sh, todas las máquinas virtuales, carpetas, redes, etc.
 
-El contenido está explicado en el archivo [`Memoria-virtualización.md`](Memoria-virtualización.md) que tiene la siguiente estructura:
+El contenido está explicado más detalladamente en el archivo [`Memoria-virtualización.md`](Memoria-virtualización.md) cuyo índice e el siguiente:
 
 1. [Introducción](Memoria-virtualización.md#Introducción)
 2. [Hipervisores, KVM y Libvirt](Memoria-virtualización.md#hipervisores-kvm-y-libvirt)
