@@ -50,8 +50,9 @@ El contenido está explicado más detalladamente en el archivo [`Memoria-virtual
 10. [Referencias y bibliografía](Memoria-virtualización.md#referencias-y-bibliografía)
 
 
-![GitHub last commit](https://img.shields.io/github/last-commit/JohanV711/Virtualizacion-de-redes-con-QEMU-KVM-Pyhton)
 ![GitHub repo size](https://img.shields.io/github/repo-size/JohanV711/Virtualizacion-de-redes-con-QEMU-KVM-Pyhton)
 
-## Se aceptan sugerencias (pull requests).
+## :people_hugging: Contribuciones.
+Se agradecen ideas, sugerencias, mejoras o correcciones. Puedes abrir un *issue* o enviar un *pull request*.
 
+Proyecto académico de virtualización de redes por Johan Vargas Vasquez.
