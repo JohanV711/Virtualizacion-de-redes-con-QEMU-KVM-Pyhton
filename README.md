@@ -57,4 +57,4 @@ El contenido está explicado más detalladamente en el archivo [`Memoria-virtual
 ## :people_hugging: Contribuciones.
 Se agradecen ideas, sugerencias, mejoras o correcciones. Puedes abrir un *issue* o enviar un *pull request*.
 
-Proyecto académico de virtualización de redes por Johan Vargas Vasquez.
+Proyecto académico de virtualización de redes por Johan Vargas.
