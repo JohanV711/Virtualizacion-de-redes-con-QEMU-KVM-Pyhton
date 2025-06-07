@@ -1,5 +1,7 @@
 # :top:Virtualizacion de infraestructura de redes virtual con KVM y Libvirt.
 
+![GitHub repo size](https://img.shields.io/github/repo-size/JohanV711/Virtualizacion-de-redes-con-QEMU-KVM-Pyhton)
+
 Este proyecto consiste en la creación automática de una infraestructura de red virtual con KVM en ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu) usando **KVM**, **libvirt** . Para los scripts se ha usado el lenguaje de programación **Python** y **bash** para automatizar el despliegue y configuración de toda la infraestructura y sus componentes.
 La infraestructura incluye:
 - 4 PCs en redes independientes.
@@ -13,7 +15,9 @@ En este repositorio NO se incluye la imagen de disco maestro con extensión .qco
 qemu-img convert -O qcow2 [imagen base].img [imagen final].qcow2
 ```
 Leer la memoria antes de nada para comprobar las configuraciones necesarias antes de empezar.
+
 ## :rocket:Instalación.
+
 -Clona el repositorio:
 ```bash
 git clone https://github.com/JohanV711/Virtualizacion-de-redes-con-QEMU-KVM-Pyhton.git
@@ -49,9 +53,6 @@ El contenido está explicado más detalladamente en el archivo [`Memoria-virtual
 8. [scriptPrincipal.sh](Memoria-virtualización.md#scriptprincipalsh)
 9. [Resultado final](Memoria-virtualización.md#resultado-final)
 10. [Referencias y bibliografía](Memoria-virtualización.md#referencias-y-bibliografía)
-
-
-![GitHub repo size](https://img.shields.io/github/repo-size/JohanV711/Virtualizacion-de-redes-con-QEMU-KVM-Pyhton)
 
 ## :people_hugging: Contribuciones.
 Se agradecen ideas, sugerencias, mejoras o correcciones. Puedes abrir un *issue* o enviar un *pull request*.
