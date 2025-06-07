@@ -1,7 +1,11 @@
-# :top:Virtualizacion con KVM.
+# :top:Virtualizacion de infraestructura de redes virtual con KVM y Libvirt.
 
-Este proyecto consiste en la creación automática de una infraestructura de red virtual con KVM en ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu) usando **KVM** y **libvirt**. Para los scripts se ha usado el lenguaje de programación Python y bash para automatizar el despliegue y configuración del entorno.
-La infraestructura está compuesta por 4 peces en redes diferentes, 4 router interconectados y un servidor como muestra la siguiente imagen:
+Este proyecto consiste en la creación automática de una infraestructura de red virtual con KVM en ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu) usando **KVM**, **libvirt** . Para los scripts se ha usado el lenguaje de programación **Python** y **bash** para automatizar el despliegue y configuración de toda la infraestructura y sus componentes.
+La infraestructura incluye:
+- 4 PCs en redes independientes.
+- 4 routers interconectados mediante enlaces punto a punto.
+- 1 servidor accesible desde todas las redes.
+La topología general es la siguiente:
 <br><img src="Capturas/image9.png" alt="Esquema red" style="width: 50%; border: 1px solid #ccc;" /><br>
 En este repositorio NO se incluye la imagen de disco maestro con extensión .qcow2 pero se pueden descargar a través de sitios oficiales de Debian o Ubuntu y después transformarse a formato qcow2 con el comando:
 ```bash
@@ -13,9 +17,9 @@ Leer la memoria antes de nada para comprobar las configuraciones necesarias ante
 - ![KVM](https://img.shields.io/badge/KVM-EE0000?logo=kvm&logoColor=white) (Kernel-based Virtual Machine).
 - ![Libvirt](https://img.shields.io/badge/Libvirt-1D99F3?logo=libvirt&logoColor=white)
 (API para gestionar máquinas virtuales).
-- ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+- ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) lenguaje para trabajar con ficheros XML.
 
-- ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white)
+- ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white) para scripting.
 
 - ![Netplan](https://img.shields.io/badge/Netplan-0066CC?logoColor=white)
 (configuración de red en Ubuntu).
