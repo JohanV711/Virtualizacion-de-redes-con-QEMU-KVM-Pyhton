@@ -19,19 +19,14 @@ git clone https://github.com/JohanV711/Virtualizacion-de-redes-con-QEMU-KVM-Pyht
 ```
 ## :hammer:Tecnologías y herramientas usadas.
 
-- ![KVM](https://img.shields.io/badge/KVM-EE0000?logo=kvm&logoColor=white) (Kernel-based Virtual Machine).
-- ![Libvirt](https://img.shields.io/badge/Libvirt-1D99F3?logo=libvirt&logoColor=white)
-(API para gestionar máquinas virtuales).
-- ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) lenguaje elegido para trabajar con ficheros XML.
+- ![KVM](https://img.shields.io/badge/KVM-EE0000?logo=kvm&logoColor=white): Kernel-based Virtual Machine.
+- ![Libvirt](https://img.shields.io/badge/Libvirt-1D99F3?logo=libvirt&logoColor=white): API para gestionar máquinas virtuales.
+- ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white): lenguaje elegido para trabajar con ficheros XML.
+- ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white): para scripting de automatización.
+- ![Netplan](https://img.shields.io/badge/Netplan-0066CC?logoColor=white): configuración de red en Ubuntu.
+- ![FRRouting](https://img.shields.io/badge/FRRouting-FFCC00?logoColor=black): para el enrutamiento (OSPF).
 
-- ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white) para scripting.
-
-- ![Netplan](https://img.shields.io/badge/Netplan-0066CC?logoColor=white):
-(configuración de red en Ubuntu).
-- ![FRRouting](https://img.shields.io/badge/FRRouting-FFCC00?logoColor=black)
- para el enrutamiento (OSPF).
-
-## :office:Estructura del proyecto.
+## :file_folder: Estructura del proyecto.
 
 - `plantilla_kvm.xml`: plantilla de configuración xml de las máquinas virtuales.
 - `agr-vm-base.qcow2`: imagen de disco que se va a usar de base para crear las máquinas virtuales, ocupan poco y son muy eficientes para el proyecto.
