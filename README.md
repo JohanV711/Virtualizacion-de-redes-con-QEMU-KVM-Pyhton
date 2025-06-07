@@ -10,18 +10,17 @@ qemu-img convert -O qcow2 [imagen base].img [imagen final].qcow2
 Leer la memoria antes de nada para comprobar las configuraciones necesarias antes de empezar.
 ## :hammer:Tecnologías y herramientas usadas.
 
-- **![KVM](https://img.shields.io/badge/KVM-EE0000?logo=kvm&logoColor=white)
-**(Kernel-based Virtual Machine).
-- **![Libvirt](https://img.shields.io/badge/Libvirt-1D99F3?logo=libvirt&logoColor=white)
-**(API para gestionar máquinas virtuales).
-- **![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-**
-- **![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white)
-**
-- **![Netplan](https://img.shields.io/badge/Netplan-0066CC?logoColor=white)
-**(configuración de red en Ubuntu).
-- **![FRRouting](https://img.shields.io/badge/FRRouting-FFCC00?logoColor=black)
-** para el enrutamiento (OSPF).
+- ![KVM](https://img.shields.io/badge/KVM-EE0000?logo=kvm&logoColor=white) (Kernel-based Virtual Machine).
+- ![Libvirt](https://img.shields.io/badge/Libvirt-1D99F3?logo=libvirt&logoColor=white)
+(API para gestionar máquinas virtuales).
+- ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+
+- ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white)
+
+- ![Netplan](https://img.shields.io/badge/Netplan-0066CC?logoColor=white)
+(configuración de red en Ubuntu).
+- ![FRRouting](https://img.shields.io/badge/FRRouting-FFCC00?logoColor=black)
+ para el enrutamiento (OSPF).
 
 ## :office:Estructura del proyecto.
 
