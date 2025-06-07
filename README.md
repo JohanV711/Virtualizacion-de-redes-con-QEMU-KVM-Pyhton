@@ -12,6 +12,11 @@ En este repositorio NO se incluye la imagen de disco maestro con extensión .qco
 qemu-img convert -O qcow2 [imagen base].img [imagen final].qcow2
 ```
 Leer la memoria antes de nada para comprobar las configuraciones necesarias antes de empezar.
+## :rocket:Instalación.
+-Clona el repositorio:
+```bash
+git clone https://github.com/JohanV711/Virtualizacion-de-redes-con-QEMU-KVM-Pyhton.git
+```
 ## :hammer:Tecnologías y herramientas usadas.
 
 - ![KVM](https://img.shields.io/badge/KVM-EE0000?logo=kvm&logoColor=white) (Kernel-based Virtual Machine).
