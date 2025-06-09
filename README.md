@@ -11,6 +11,7 @@ La infraestructura incluye:
 La topología general es la siguiente:
 <br><img src="Capturas/image9.png" alt="Esquema red" style="width: 50%; border: 1px solid #ccc;" /><br>
 En este repositorio NO se incluye la imagen de disco maestro con extensión .qcow2 pero se pueden descargar a través de sitios oficiales de Debian o Ubuntu y después transformarse a formato qcow2 con el comando:
+
 ```bash
 qemu-img convert -O qcow2 [imagen base].img [imagen final].qcow2
 ```
