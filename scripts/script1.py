@@ -5,10 +5,10 @@ def crear_red_xml(nombre, direccion_red, netmask='255.255.255.0', bridge_num=Non
     """
     Generar configuración XML para una red de libvirt
 
-    :param nombre: Nombre de la red (ej. 'red1')
-    :param direccion_red: Dirección de red base (ej. '10.0.0.0')
-    :param netmask: Máscara de red (por defecto 255.255.255.0)
-    :param bridge_num: Número de bridge (si es None, se genera automáticamente)
+    :parámetro nombre: Nombre de la red (ej. 'red1')
+    :parámetro  direccion_red: Dirección de red base (ej. '10.0.0.0')
+    :parámetro netmask: Máscara de red (por defecto 255.255.255.0)
+    :parámetro bridge_num: Número de bridge (si es None, se genera automáticamente)
     """
     # Crear el elemento raíz network.
     network = ET.Element('network')
