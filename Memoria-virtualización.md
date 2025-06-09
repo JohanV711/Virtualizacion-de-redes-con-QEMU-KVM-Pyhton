@@ -35,7 +35,7 @@ virsh list --all
 ```
 
 ## Punto de partida.
-Se quiere conseguir la automatización del proceso de configuración de todo el entorno. Para ello como punto de partida se debe tener en cuenta que la ruta base o el entorno donde voy a desarrollar todo el proyecto es `/home/alumno/practicaRed` y es donde situaremos la plantilla `plantilla-vm.xml`, la imagen de disco `agr-vm-base.qcow2` y los 3 scripts de ejecución (script1.py, script2.py y scriptPrincipal.sh). El script de limpieza también debe colocarse en esta ruta cuando se quiera usar.
+El objetivo es automatizar completamente la configuración de la infraestructura virtual. Para ello, se define la ruta base del proyecto como `/home/alumno/practicaRed`, donde se almacenarán todos los archivos necesarios: la plantilla XML (`plantilla-vm.xml`), la imagen base (`agr-vm-base.qcow2`) y los scripts (`script1.py`, `script2.py`, `scriptPrincipal.sh` y `limpieza.sh`).
 
 Para simplificar el contenido de los ficheros antes de comenzar con los scripts se concedieron permisos completos a todos los usuarios del sistema, se cambió el propietario a libvirt-qemu para que las VMs gestionadas por libvirt/KVM puedan acceder a los archivos .qcow2, XML, etc:
 ```bash
