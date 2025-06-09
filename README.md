@@ -2,7 +2,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/JohanV711/Virtualizacion-de-redes-con-QEMU-KVM-Pyhton)
 
-Este proyecto consiste en la creación automática de una infraestructura de red virtual con KVM en ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu) usando **KVM**, **libvirt** . Para los scripts se ha usado el lenguaje de programación **Python** y **bash** para automatizar el despliegue y configuración de toda la infraestructura y sus componentes.
+Proyecto de creación automática de una infraestructura de red virtual en ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu) usando **KVM** y **libvirt** .Para los scripts se ha usado el lenguaje de programación **Python** y **bash** para automatizar el despliegue y configuración de toda la infraestructura y sus componentes.
 La infraestructura incluye:
 - 4 PCs en redes independientes.
 - 4 routers interconectados mediante enlaces punto a punto.
