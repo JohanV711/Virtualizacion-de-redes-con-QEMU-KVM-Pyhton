@@ -58,6 +58,7 @@ Los conceptos y puntos que se han usado en este proyecto son los siguientes.
 - **Bridges de red**: cada red virtual tiene su propio bridge interno.
 - Cada red virtual definida tiene su **propio bridge interno**, aislado del resto.
 - Los routers y demás máquinas se conectan a estos bridges a través de interfaces virtuales.
+
 3.OSPF y FRR.
 OSPF (Open Shortest Path First) es un protocolo de enrutamiento dinámico que permite que los routers se descubran automáticamente, se intercambien las tablas de routing y encuentren el mejor camino entre redes.
 FRR (Free Range Routing)es un software de enrutamiento que incorpora diversos protocolos entre ellos OSPF para gestionar el tráfico de red en Linux y Unix. La shell o interfaz de comandos que usa FRR para la configuración de dispositivos es vtysh, que es similar a la que usa Cisco IOS.
