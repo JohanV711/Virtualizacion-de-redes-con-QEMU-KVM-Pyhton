@@ -56,6 +56,6 @@ El contenido está explicado más detalladamente en el archivo [`Memoria-virtual
 10. [Referencias y bibliografía](Memoria-virtualización.md#referencias-y-bibliografía)
 
 ## :people_hugging: Contribuciones.
-Se agradecen ideas, sugerencias, mejoras o correcciones. Puedes abrir un *issue* o enviar un *pull request*.
+Se agradecen ideas, sugerencias o correcciones. Puedes abrir un *issue* o enviar un *pull request*.
 
 Proyecto académico de virtualización de redes por Johan Vargas.
