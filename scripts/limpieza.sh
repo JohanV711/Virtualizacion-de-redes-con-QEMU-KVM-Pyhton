@@ -14,6 +14,7 @@ handle_error() {
     echo "Error: $1"
 }
 
+
 # Función para eliminar las redes.
 eliminar_redes() {
     echo "Eliminando redes..."
@@ -32,6 +33,7 @@ eliminar_redes() {
         echo "Red ${network} eliminada"
     done
 }
+
 
 # Función para eliminar las máquinas virtuales.
 eliminar_maquinas() {
@@ -52,6 +54,7 @@ eliminar_maquinas() {
     done
 }
 
+
 # Función para limpiar el directorio base.
 limpiar_directorio() {
     echo "Limpiando directorio base..."
@@ -61,6 +64,7 @@ limpiar_directorio() {
     
     echo "Directorio base limpiado"
 }
+
 
 # Función principal.
 main() {
