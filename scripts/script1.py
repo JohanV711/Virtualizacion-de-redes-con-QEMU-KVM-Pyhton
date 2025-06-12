@@ -37,7 +37,6 @@ def crear_red_xml(nombre, direccion_red, netmask='255.255.255.0', bridge_num=Non
 
     ET.SubElement(dhcp, 'range', start=dhcp_start, end=dhcp_end)
 
-
     return network
 
 def main():
