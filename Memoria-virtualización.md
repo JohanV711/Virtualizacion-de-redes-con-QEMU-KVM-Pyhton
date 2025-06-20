@@ -141,7 +141,7 @@ Explicación resumida de las funciones que hace el código.
 - r4: conecta la red del servidor con r2.
 
 5. Servidor web.
-- Aqui se puede configurar un servidor web que va a ser accesible desde cualquier PC e incluso desde la máquina virtual anfitriona, no se ha configurado por simplificación pero hay muchas alternativas usando Apache, Nginx, etc.
+- Aqui se puede configurar un servidor web que va a ser accesible desde cualquier PC e incluso desde la máquina virtual anfitriona, no se ha configurado por simplificación del proyecto pero hay muchas alternativas usando Apache, Nginx, etc.
 
 Como es de esperar, ejecutar esto tarda unos minutos pero se obtendrá toda una infraestructura completa de redes dentro de una sola máquina física. Se pueden agregar firewalls, VLANs, simular tráfico con ping, acceder y restringir tráfico hacia ciertos hosts, etc. Esto es muy común para replicar entornos de desarrollo.
 
