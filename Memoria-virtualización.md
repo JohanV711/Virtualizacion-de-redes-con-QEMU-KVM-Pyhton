@@ -1,5 +1,5 @@
 # Introducción.
-La red que se pretende crear está formada por 9 dispositivos virtuales, 4 pcs en redes diferentes, 4 routers y un servidor, el esquema es el siguiente:
+La estrucutura que se pretende crear está formada por 9 dispositivos virtuales, 4 pcs en redes diferentes, 4 routers y un servidor, el esquema es el siguiente:
 <br><img src="Capturas/image9.png" alt="Esquema red" style="width: 75%; border: 1px solid #ccc;" /><br>
 
 # Hipervisores, KVM y Libvirt.
