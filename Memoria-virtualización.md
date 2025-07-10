@@ -1,5 +1,4 @@
 # Introducción.
-Esta es la explicación de los scripts y los conceptos que se han usado para crear una infraestructura de red virtualizada dentro de un equipo con sistema operativo Ubuntu 22.04 y de manera automatizada ejecutando el scriptPrincipal.sh.
 La red que se pretende crear está formada por 9 dispositivos virtuales, 4 pcs en redes diferentes, 4 routers y un servidor, el esquema es el siguiente:
 <br><img src="Capturas/image9.png" alt="Esquema red" style="width: 75%; border: 1px solid #ccc;" /><br>
 
