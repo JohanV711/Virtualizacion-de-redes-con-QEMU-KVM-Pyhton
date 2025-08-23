@@ -68,7 +68,7 @@ PC1 -----> [Bridge red1] -----> Router R1 (eth1)
 ```
 
 # Script limpieza.sh.
-Con el script principal se van a crear carpetas, fichero y configuraciones que se podrán borrar con [`limpieza.sh`](scripts/limpieza.sh). El propio script está bastante documentado y explicado, su única función es eliminar todo rastro que haya dejado la ejecución de [`scriptPrincipal.sh`](scripts/scriptPrincipal.sh).
+Con el script principal se van a crear carpetas, fichero y configuraciones que se podrán borrar con [`limpieza.sh`](scripts/limpieza.sh). El propio script está bastante documentado y explicado, su única función es eliminar todo rastro de archivos y configuraciones que haya dejado la ejecución de [`scriptPrincipal.sh`](scripts/scriptPrincipal.sh).
 
 # script1.py.
 Este [`script`](scripts/script1.py) en Python sirve para crear archivos de configuración XML que describen redes virtuales para ser usadas en KVM. Se necesitan 6 redes, por ello se van a crear esos 6 XML con la configuración necesaria en cada una. La librerías que se usan son "os" para manejar rutas de archivos y carpetas y "xml.etree.ElementTree" para modificar y trabajar con documentos XML.
