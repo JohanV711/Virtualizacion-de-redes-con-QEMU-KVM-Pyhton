@@ -23,6 +23,7 @@ Leer la memoria antes de nada para comprobar las configuraciones necesarias ante
 ```bash
 git clone https://github.com/JohanV711/Virtualizacion-de-redes-con-QEMU-KVM-Pyhton.git
 ```
+-La configuración puede cambiar dependiendo del SO y el dispositivo.
 
 ## :hammer:Tecnologías y herramientas usadas.
 
